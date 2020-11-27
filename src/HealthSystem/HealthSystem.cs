@@ -56,16 +56,25 @@
         /// <summary>
         /// Sets the health back to max.
         /// </summary>
-        public void FillHealth() => this.Health = this.MaxHealth;
+        public void FillHealth()
+        {
+            this.Health = this.MaxHealth;
+        }
 
         /// <summary>
         /// Gets health.
         /// </summary>
-        public float GetHealth() => this.Health;
+        public float GetHealth()
+        {
+            return this.Health;
+        }
 
         /// <summary>
         /// Gets max health.
         /// </summary>
-        public float GetMaxHealth() => this.MaxHealth;
+        public float GetMaxHealth()
+        {
+            return this.MaxHealth;
+        }
     }
 }

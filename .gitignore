@@ -1,1 +1,3 @@
 *.meta
+src/ItemSystem/WorldItem
+src/Interfaces

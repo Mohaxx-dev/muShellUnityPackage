@@ -70,21 +70,33 @@
         /// <summary>
         /// Gets level.
         /// </summary>
-        public int GetLevel() => this.Level;
+        public int GetLevel()
+        {
+            return this.Level;
+        }
 
         /// <summary>
         /// Gets exp.
         /// </summary>
-        public int GetExp() => this.Exp;
+        public int GetExp()
+        {
+            return this.Exp;
+        }
 
         /// <summary>
         /// Gets next level exp.
         /// </summary>
-        public int GetNextLevelExp() => this.ExpCalculator(this.Level + 1);
+        public int GetNextLevelExp()
+        {
+            return this.ExpCalculator(this.Level + 1);
+        }
 
         /// <summary>
         /// Gets needed exp to next level.
         /// </summary>
-        public int GetNeededExpToNextLevel() => this.GetNextLevelExp() - this.Exp;
+        public int GetNeededExpToNextLevel()
+        {
+            return this.GetNextLevelExp() - this.Exp;
+        }
     }
 }
